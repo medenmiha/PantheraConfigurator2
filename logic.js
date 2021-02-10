@@ -209,13 +209,13 @@ document.getElementById("testIzbireSedezev").onclick = function() {
 };
 
 document.getElementById("slikaModra").onclick = function() {
-  partsArray[15].visible = false;
-  partsArray[16].visible = false;
+  partsArray[33].visible = false;
+  partsArray[34].visible = false;
 };
 
 document.getElementById("slikaRdeca").onclick = function() {
-  partsArray[17].visible = false;
-  partsArray[18].visible = false;
+  partsArray[36].visible = false;
+  partsArray[35].visible = false;
 };
 
 
