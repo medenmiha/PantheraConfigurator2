@@ -85,7 +85,7 @@ loader.load( 'datoteke/pantherav7.gltf', function ( gltf ) {
         scene.add( gltf.scene );
         
         //partsArray[100].visible = false;
-        console.log("pr") // 
+        console.log(partsArray.length) // 
         roughnessMipmapper.dispose();
         
         mixer = new THREE.AnimationMixer( gltf.scene );
@@ -209,13 +209,13 @@ document.getElementById("testIzbireSedezev").onclick = function() {
 };
 
 document.getElementById("slikaModra").onclick = function() {
-  partsArray[64].visible = false;
-  partsArray[100].visible = true;
+  partsArray[15].visible = false;
+  partsArray[16].visible = false;
 };
 
 document.getElementById("slikaRdeca").onclick = function() {
-  partsArray[64].visible = true;
-  partsArray[100].visible = false;
+  partsArray[17].visible = false;
+  partsArray[18].visible = false;
 };
 
 
