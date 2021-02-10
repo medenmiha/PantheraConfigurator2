@@ -85,7 +85,7 @@ loader.load( 'datoteke/pantherav7.gltf', function ( gltf ) {
         scene.add( gltf.scene );
         
         //partsArray[100].visible = false;
-        console.log(partsArray.length) // 
+        console.log("1") // 
         roughnessMipmapper.dispose();
         
         mixer = new THREE.AnimationMixer( gltf.scene );
@@ -209,11 +209,12 @@ document.getElementById("testIzbireSedezev").onclick = function() {
 };
 
 document.getElementById("slikaModra").onclick = function() {
-  partsArray[33].visible = false;
+  //partsArray[33].visible = false;
   partsArray[34].visible = false;
 };
 
 document.getElementById("slikaRdeca").onclick = function() {
+  //preklop v modro
   partsArray[36].visible = false;  //prednjiSedezDesniPanthera2
   partsArray[35].visible = false;  //prednjiSedezLeviPanthera2 problem
 };
