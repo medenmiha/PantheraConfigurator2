@@ -215,7 +215,6 @@ document.getElementById("slikaModra").onclick = function() {
 
 document.getElementById("slikaRdeca").onclick = function() {
   partsArray[36].visible = false;
-  partsArray[35].visible = false;
 };
 
 
