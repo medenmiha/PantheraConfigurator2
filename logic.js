@@ -216,11 +216,18 @@ document.getElementById("slikaModra").onclick = function() {
 };
 
 document.getElementById("slikaRdeca").onclick = function() {
-  partsArray[33].visible = false; //skinPanthera4  
-  partsArray[32].visible = false; //skinPanthera3
-  partsArray[31].visible = false; //skinPanthera2
-  partsArray[30].visible = false;
+  //preklop v rdeco
+  partsArray[34].visible = true;
+  partsArray[36].visible = true;  //prednjiSedezDesniPanthera2
+  partsArray[35].visible = true;  //prednjiSedezLeviPanthera2 problem
 
+};
+
+
+document.getElementById("zelenaPanthera").onclick = function() {
+  partsArray[33].visible = false; //skinPanthera4  
+  partsArray[32].visible = true; //skinPanthera3
+  partsArray[31].visible = false; //skinPanthera2
 };
 
 
