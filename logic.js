@@ -230,6 +230,12 @@ document.getElementById("zelenaPanthera").onclick = function() {
   partsArray[31].visible = false; //skinPanthera2
 };
 
+document.getElementById("modraPanthera").onclick = function() {
+  partsArray[33].visible = false; //skinPanthera4  
+  partsArray[32].visible = false; //skinPanthera3
+  partsArray[31].visible = true; //skinPanthera2
+};
+
 document.getElementById("vijolicnaPanthera").onclick = function() {
   partsArray[33].visible = false; //skinPanthera4  
   partsArray[32].visible = false; //skinPanthera3
