@@ -85,7 +85,7 @@ loader.load( 'datoteke/pantherav7.gltf', function ( gltf ) {
         scene.add( gltf.scene );
         
         //partsArray[100].visible = false;
-        console.log("3") // 
+        console.log("4") // 
         roughnessMipmapper.dispose();
         
         mixer = new THREE.AnimationMixer( gltf.scene );
@@ -216,7 +216,7 @@ document.getElementById("slikaModra").onclick = function() {
 };
 
 document.getElementById("slikaRdeca").onclick = function() {
-  //partsArray[33].visible = false; //skinPanthera4  
+  partsArray[33].visible = false; //skinPanthera4  
   partsArray[32].visible = false;
 };
 
