@@ -1,1 +1,256 @@
-var _0xfb63=["\x69\x6E\x6E\x65\x72\x57\x69\x64\x74\x68","\x69\x6E\x6E\x65\x72\x48\x65\x69\x67\x68\x74","\x64\x69\x76","\x63\x72\x65\x61\x74\x65\x45\x6C\x65\x6D\x65\x6E\x74","\x61\x70\x70\x65\x6E\x64\x43\x68\x69\x6C\x64","\x62\x6F\x64\x79","\x64\x65\x76\x69\x63\x65\x50\x69\x78\x65\x6C\x52\x61\x74\x69\x6F","\x73\x65\x74\x50\x69\x78\x65\x6C\x52\x61\x74\x69\x6F","\x73\x65\x74\x53\x69\x7A\x65","\x74\x6F\x6E\x65\x4D\x61\x70\x70\x69\x6E\x67","\x41\x43\x45\x53\x46\x69\x6C\x6D\x69\x63\x54\x6F\x6E\x65\x4D\x61\x70\x70\x69\x6E\x67","\x74\x6F\x6E\x65\x4D\x61\x70\x70\x69\x6E\x67\x45\x78\x70\x6F\x73\x75\x72\x65","\x6F\x75\x74\x70\x75\x74\x45\x6E\x63\x6F\x64\x69\x6E\x67","\x73\x52\x47\x42\x45\x6E\x63\x6F\x64\x69\x6E\x67","\x64\x6F\x6D\x45\x6C\x65\x6D\x65\x6E\x74","\x6D\x69\x6E\x44\x69\x73\x74\x61\x6E\x63\x65","\x6D\x61\x78\x44\x69\x73\x74\x61\x6E\x63\x65","\x73\x65\x74","\x74\x61\x72\x67\x65\x74","\x76\x65\x6E\x69\x63\x65\x5F\x73\x75\x6E\x73\x65\x74\x5F\x31\x6B\x2E\x68\x64\x72","\x74\x65\x78\x74\x75\x72\x65","\x66\x72\x6F\x6D\x45\x71\x75\x69\x72\x65\x63\x74\x61\x6E\x67\x75\x6C\x61\x72","\x62\x61\x63\x6B\x67\x72\x6F\x75\x6E\x64","\x65\x6E\x76\x69\x72\x6F\x6E\x6D\x65\x6E\x74","\x64\x69\x73\x70\x6F\x73\x65","\x6C\x6F\x61\x64","\x68\x74\x74\x70\x73\x3A\x2F\x2F\x74\x68\x72\x65\x65\x6A\x73\x2E\x6F\x72\x67\x2F\x65\x78\x61\x6D\x70\x6C\x65\x73\x2F\x74\x65\x78\x74\x75\x72\x65\x73\x2F\x65\x71\x75\x69\x72\x65\x63\x74\x61\x6E\x67\x75\x6C\x61\x72\x2F","\x73\x65\x74\x50\x61\x74\x68","\x73\x65\x74\x44\x61\x74\x61\x54\x79\x70\x65","\x64\x61\x74\x6F\x74\x65\x6B\x65\x2F\x70\x61\x6E\x74\x68\x65\x72\x61\x76\x37\x2E\x67\x6C\x74\x66","\x70\x75\x73\x68","\x69\x73\x4D\x65\x73\x68","\x6D\x61\x74\x65\x72\x69\x61\x6C","\x67\x65\x6E\x65\x72\x61\x74\x65\x4D\x69\x70\x6D\x61\x70\x73","\x74\x72\x61\x76\x65\x72\x73\x65","\x73\x63\x65\x6E\x65","\x61\x64\x64","\x35","\x6C\x6F\x67","\x61\x6E\x69\x6D\x61\x74\x69\x6F\x6E\x73","\x63\x6C\x69\x70\x41\x63\x74\x69\x6F\x6E","\x63\x6F\x6D\x70\x69\x6C\x65\x45\x71\x75\x69\x72\x65\x63\x74\x61\x6E\x67\x75\x6C\x61\x72\x53\x68\x61\x64\x65\x72","\x75\x70\x64\x61\x74\x65","\x72\x65\x73\x69\x7A\x65","\x61\x64\x64\x45\x76\x65\x6E\x74\x4C\x69\x73\x74\x65\x6E\x65\x72","\x61\x73\x70\x65\x63\x74","\x75\x70\x64\x61\x74\x65\x50\x72\x6F\x6A\x65\x63\x74\x69\x6F\x6E\x4D\x61\x74\x72\x69\x78","\x67\x65\x74\x44\x65\x6C\x74\x61","\x78","\x79","\x7A","\x70\x6F\x73\x69\x74\x69\x6F\x6E","\x6C\x6F\x6F\x6B\x41\x74","\x72\x65\x6E\x64\x65\x72","\x74\x6F","\x73\x74\x61\x72\x74","\x63\x6C\x61\x6D\x70\x57\x68\x65\x6E\x46\x69\x6E\x69\x73\x68\x65\x64","\x6C\x6F\x6F\x70","\x4C\x6F\x6F\x70\x4F\x6E\x63\x65","\x70\x6C\x61\x79","\x6F\x6E\x63\x6C\x69\x63\x6B","\x65\x78\x74\x65\x72\x69\x6F\x72\x53\x65\x63\x74\x69\x6F\x6E","\x67\x65\x74\x45\x6C\x65\x6D\x65\x6E\x74\x42\x79\x49\x64","\x73\x65\x61\x74\x73\x53\x65\x63\x74\x69\x6F\x6E","\x74\x65\x73\x74\x49\x7A\x62\x69\x72\x65\x53\x65\x64\x65\x7A\x65\x76","\x73\x6C\x69\x6B\x61\x4D\x6F\x64\x72\x61","\x76\x69\x73\x69\x62\x6C\x65","\x73\x6C\x69\x6B\x61\x52\x64\x65\x63\x61","\x6F\x72\x61\x6E\x7A\x6E\x61\x50\x61\x6E\x74\x68\x65\x72\x61","\x7A\x65\x6C\x65\x6E\x61\x50\x61\x6E\x74\x68\x65\x72\x61","\x6D\x6F\x64\x72\x61\x50\x61\x6E\x74\x68\x65\x72\x61","\x76\x69\x6A\x6F\x6C\x69\x63\x6E\x61\x50\x61\x6E\x74\x68\x65\x72\x61"];import  * as THREE from 'https://threejs.org/build/three.module.js';;import   OrbitControls  from 'https://threejs.org/examples/jsm/controls/OrbitControls.js';;import   GLTFLoader  from 'https://threejs.org/examples/jsm/loaders/GLTFLoader.js';;import   RGBELoader  from 'https://threejs.org/examples/jsm/loaders/RGBELoader.js';;import   RoughnessMipmapper  from 'https://threejs.org/examples/jsm/utils/RoughnessMipmapper.js';;var container,controls,controls1;var camera,scene,renderer,mixer,clock,camera1;var exteriorCamera,interiorCamera,selectedCamera,selectedControls;var action1,action2,action3,clip1,clip2,clip3;var cameraPosition={x:0,y:0,z:0};var pogoj=false;var cameraLook= new THREE.Vector3(0,0,0);var partsArray=[];scene=  new THREE.Scene();clock=  new THREE.Clock();exteriorCamera=  new THREE.PerspectiveCamera(45,window[_0xfb63[0]]/ window[_0xfb63[1]],0.25,20);interiorCamera=  new THREE.PerspectiveCamera(65,window[_0xfb63[0]]/ window[_0xfb63[1]],0.25,20);selectedCamera= exteriorCamera;container= document[_0xfb63[3]](_0xfb63[2]);document[_0xfb63[5]][_0xfb63[4]](container);renderer=  new THREE.WebGLRenderer({antialias:false});renderer[_0xfb63[7]](window[_0xfb63[6]]);renderer[_0xfb63[8]](window[_0xfb63[0]],window[_0xfb63[1]]);renderer[_0xfb63[9]]= THREE[_0xfb63[10]];renderer[_0xfb63[11]]= 0.8;renderer[_0xfb63[12]]= THREE[_0xfb63[13]];container[_0xfb63[4]](renderer[_0xfb63[14]]);controls=  new OrbitControls(selectedCamera,renderer[_0xfb63[14]]);controls[_0xfb63[15]]= 2;controls[_0xfb63[16]]= 10;controls[_0xfb63[18]][_0xfb63[17]](0,0,0); new RGBELoader()[_0xfb63[28]](THREE.UnsignedByteType)[_0xfb63[27]](_0xfb63[26])[_0xfb63[25]](_0xfb63[19],function(_0xda09x18){var _0xda09x19=pmremGenerator[_0xfb63[21]](_0xda09x18)[_0xfb63[20]];scene[_0xfb63[22]]= _0xda09x19;scene[_0xfb63[23]]= _0xda09x19;_0xda09x18[_0xfb63[24]]();pmremGenerator[_0xfb63[24]]()});var roughnessMipmapper= new RoughnessMipmapper(renderer);var loader= new GLTFLoader();loader[_0xfb63[25]](_0xfb63[29],function(_0xda09x1c){_0xda09x1c[_0xfb63[35]][_0xfb63[34]](function(_0xda09x1d){partsArray[_0xfb63[30]](_0xda09x1d);if(_0xda09x1d[_0xfb63[31]]){roughnessMipmapper[_0xfb63[33]](_0xda09x1d[_0xfb63[32]])}});scene[_0xfb63[36]](_0xda09x1c[_0xfb63[35]]);console[_0xfb63[38]](_0xfb63[37]);roughnessMipmapper[_0xfb63[24]]();mixer=  new THREE.AnimationMixer(_0xda09x1c[_0xfb63[35]]);clip1= _0xda09x1c[_0xfb63[39]][1];action1= mixer[_0xfb63[40]](clip1);clip2= _0xda09x1c[_0xfb63[39]][0];action2= mixer[_0xfb63[40]](clip2);clip3= _0xda09x1c[_0xfb63[39]][2];action3= mixer[_0xfb63[40]](clip3)});var pmremGenerator= new THREE.PMREMGenerator(renderer);pmremGenerator[_0xfb63[41]]();controls[_0xfb63[42]]();window[_0xfb63[44]](_0xfb63[43],onWindowResize,false);function onWindowResize(){selectedCamera[_0xfb63[45]]= window[_0xfb63[0]]/ window[_0xfb63[1]];selectedCamera[_0xfb63[46]]();renderer[_0xfb63[8]](window[_0xfb63[0]],window[_0xfb63[1]])}function animate(){requestAnimationFrame(animate);var _0xda09x21=clock[_0xfb63[47]]();if(mixer){mixer[_0xfb63[42]](_0xda09x21)};TWEEN[_0xfb63[42]]();if(pogoj){selectedCamera[_0xfb63[51]][_0xfb63[17]](cameraPosition[_0xfb63[48]],cameraPosition[_0xfb63[49]],cameraPosition[_0xfb63[50]]);selectedCamera[_0xfb63[52]](cameraLook)};renderer[_0xfb63[53]](scene,selectedCamera)}function exteriorConfiguration(){pogoj= true;selectedCamera= exteriorCamera;cameraLook[_0xfb63[48]]= 0;cameraLook[_0xfb63[49]]= 0;cameraLook[_0xfb63[50]]= 2;controls[_0xfb63[18]][_0xfb63[17]](0,0,2);var _0xda09x23={x:-5,y:1.3,z:-5};cameraPosition[_0xfb63[48]]= selectedCamera[_0xfb63[51]][_0xfb63[48]];cameraPosition[_0xfb63[49]]= selectedCamera[_0xfb63[51]][_0xfb63[49]];cameraPosition[_0xfb63[50]]= selectedCamera[_0xfb63[51]][_0xfb63[50]];const _0xda09x24= new TWEEN.Tween(cameraPosition)[_0xfb63[54]](_0xda09x23,2000);_0xda09x24[_0xfb63[55]]();setTimeout(()=>{pogoj= false},2000)}function seatsConfiguration(){action1[_0xfb63[56]]= true;action1[_0xfb63[57]]= THREE[_0xfb63[58]];action1[_0xfb63[59]]();action2[_0xfb63[56]]= true;action2[_0xfb63[57]]= THREE[_0xfb63[58]];action2[_0xfb63[59]]();action3[_0xfb63[56]]= true;action3[_0xfb63[57]]= THREE[_0xfb63[58]];action3[_0xfb63[59]]();pogoj= true;selectedCamera= exteriorCamera;var _0xda09x26={x:-2,y:1.37,z:1.16};cameraPosition[_0xfb63[48]]= selectedCamera[_0xfb63[51]][_0xfb63[48]];cameraPosition[_0xfb63[49]]= selectedCamera[_0xfb63[51]][_0xfb63[49]];cameraPosition[_0xfb63[50]]= selectedCamera[_0xfb63[51]][_0xfb63[50]];const _0xda09x24= new TWEEN.Tween(cameraPosition)[_0xfb63[54]](_0xda09x26,2000);_0xda09x24[_0xfb63[55]]();setTimeout(()=>{pogoj= false},2000)}function interiorConfiguration(){interiorCamera[_0xfb63[51]][_0xfb63[17]](-1,0.6,-4)}document[_0xfb63[62]](_0xfb63[61])[_0xfb63[60]]= function(){exteriorConfiguration()};document[_0xfb63[62]](_0xfb63[63])[_0xfb63[60]]= function(){seatsConfiguration()};document[_0xfb63[62]](_0xfb63[64])[_0xfb63[60]]= function(){};document[_0xfb63[62]](_0xfb63[65])[_0xfb63[60]]= function(){partsArray[34][_0xfb63[66]]= false;partsArray[36][_0xfb63[66]]= false;partsArray[35][_0xfb63[66]]= false};document[_0xfb63[62]](_0xfb63[67])[_0xfb63[60]]= function(){partsArray[34][_0xfb63[66]]= true;partsArray[36][_0xfb63[66]]= true;partsArray[35][_0xfb63[66]]= true};document[_0xfb63[62]](_0xfb63[68])[_0xfb63[60]]= function(){partsArray[33][_0xfb63[66]]= true;partsArray[32][_0xfb63[66]]= false;partsArray[31][_0xfb63[66]]= false};document[_0xfb63[62]](_0xfb63[69])[_0xfb63[60]]= function(){partsArray[33][_0xfb63[66]]= false;partsArray[32][_0xfb63[66]]= true;partsArray[31][_0xfb63[66]]= false};document[_0xfb63[62]](_0xfb63[70])[_0xfb63[60]]= function(){partsArray[33][_0xfb63[66]]= false;partsArray[32][_0xfb63[66]]= false;partsArray[31][_0xfb63[66]]= true};document[_0xfb63[62]](_0xfb63[71])[_0xfb63[60]]= function(){partsArray[33][_0xfb63[66]]= false;partsArray[32][_0xfb63[66]]= false;partsArray[31][_0xfb63[66]]= false};animate()
+import * as THREE from 'https://threejs.org/build/three.module.js';
+
+import { OrbitControls } from 'https://threejs.org/examples/jsm/controls/OrbitControls.js';
+import { GLTFLoader } from 'https://threejs.org/examples/jsm/loaders/GLTFLoader.js';
+import { RGBELoader } from 'https://threejs.org/examples/jsm/loaders/RGBELoader.js';
+import { RoughnessMipmapper } from 'https://threejs.org/examples/jsm/utils/RoughnessMipmapper.js';
+
+var container, controls, controls1;
+var camera, scene, renderer, mixer, clock, camera1;
+var exteriorCamera, interiorCamera, selectedCamera, selectedControls;
+var action1, action2, action3, clip1, clip2, clip3;
+var cameraPosition = { x : 0, y: 0, z: 0 };
+var pogoj = false;
+var cameraLook = new THREE.Vector3(0, 0, 0);  //
+
+var partsArray = []; //
+
+
+
+scene = new THREE.Scene();
+clock = new THREE.Clock();
+
+//CAMERAS
+exteriorCamera = new THREE.PerspectiveCamera( 45, window.innerWidth / window.innerHeight, 0.25, 20 );
+interiorCamera = new THREE.PerspectiveCamera( 65, window.innerWidth / window.innerHeight, 0.25, 20 );
+
+selectedCamera = exteriorCamera;
+
+container = document.createElement( 'div' );
+document.body.appendChild( container );
+
+renderer = new THREE.WebGLRenderer( { antialias: false } );  //true
+renderer.setPixelRatio( window.devicePixelRatio );
+renderer.setSize( window.innerWidth, window.innerHeight );
+renderer.toneMapping = THREE.ACESFilmicToneMapping;
+renderer.toneMappingExposure = 0.8;
+renderer.outputEncoding = THREE.sRGBEncoding;
+container.appendChild( renderer.domElement );
+
+controls = new OrbitControls( selectedCamera, renderer.domElement );
+controls.minDistance = 2;
+controls.maxDistance = 10
+controls.target.set( 0, 0, 0 );
+
+//exteriorConfiguration(); //Default start from outside configuration
+
+new RGBELoader()
+  .setDataType( THREE.UnsignedByteType )
+  .setPath( 'https://threejs.org/examples/textures/equirectangular/' )
+  .load( 'venice_sunset_1k.hdr', function ( texture ) {
+
+    var envMap = pmremGenerator.fromEquirectangular( texture ).texture;
+
+    scene.background = envMap;
+    scene.environment = envMap;
+
+    texture.dispose();
+    pmremGenerator.dispose();
+
+    // model
+
+    // use of RoughnessMipmapper is optional
+
+    } );
+
+var roughnessMipmapper = new RoughnessMipmapper( renderer );
+
+var loader = new GLTFLoader();
+loader.load( 'datoteke/pantherav7.gltf', function ( gltf ) {
+
+        //window.alert(camera.target);
+        //camera.position = gltf.cameras[0].position;
+
+    
+
+      gltf.scene.traverse( function ( child ) {
+
+        partsArray.push(child);  //
+
+        if ( child.isMesh ) {
+          roughnessMipmapper.generateMipmaps( child.material );                      
+          }
+        } );
+        
+        scene.add( gltf.scene );
+        
+        //partsArray[100].visible = false;
+        console.log("5") // 
+        roughnessMipmapper.dispose();
+        
+        mixer = new THREE.AnimationMixer( gltf.scene );
+        clip1 = gltf.animations[ 1 ];
+        action1 = mixer.clipAction(clip1);
+		
+		    clip2 = gltf.animations[ 0 ];
+		    action2 = mixer.clipAction(clip2);
+		        
+        clip3 = gltf.animations[ 2 ];
+		    action3 = mixer.clipAction(clip3);
+		       
+        
+      } );
+ 
+var pmremGenerator = new THREE.PMREMGenerator( renderer );
+pmremGenerator.compileEquirectangularShader();
+  
+controls.update();
+
+window.addEventListener( 'resize', onWindowResize, false );
+
+function onWindowResize() {
+
+  selectedCamera.aspect = window.innerWidth / window.innerHeight;
+  selectedCamera.updateProjectionMatrix();
+  renderer.setSize( window.innerWidth, window.innerHeight );
+
+}
+
+function animate() {
+  
+  requestAnimationFrame( animate );
+  
+  var delta = clock.getDelta();
+  
+  if ( mixer ) mixer.update( delta );
+	
+  TWEEN.update();
+
+  //console.log(cameraPosition);
+
+  if ( pogoj ){
+     selectedCamera.position.set( cameraPosition.x, cameraPosition.y, cameraPosition.z );
+     selectedCamera.lookAt(cameraLook);
+  }
+  renderer.render( scene, selectedCamera );
+}
+
+function exteriorConfiguration(){
+
+  pogoj = true;
+  selectedCamera = exteriorCamera;
+
+  cameraLook.x=0;
+  cameraLook.y=0;
+  cameraLook.z=2;
+
+  controls.target.set( 0, 0, 2 );
+
+  var target2 =  { x : -5, y:1.3, z: -5 };
+  cameraPosition.x = selectedCamera.position.x
+  cameraPosition.y = selectedCamera.position.y
+  cameraPosition.z = selectedCamera.position.z
+
+  const tween = new TWEEN.Tween(cameraPosition ).to(target2, 2000); //
+  tween.start();
+  setTimeout(() => {
+    pogoj = false;
+  }, 2000)
+   
+}
+
+function seatsConfiguration(){
+
+  action1.clampWhenFinished = true;
+	action1.loop = THREE.LoopOnce;
+  action1.play();
+
+  action2.clampWhenFinished = true;
+  action2.loop = THREE.LoopOnce;
+  action2.play();
+
+  action3.clampWhenFinished = true;
+  action3.loop = THREE.LoopOnce;
+  action3.play();
+
+  pogoj = true;
+  selectedCamera = exteriorCamera;
+
+  var target1 =  { x : -2, y: 1.37, z: 1.16 };
+  cameraPosition.x = selectedCamera.position.x
+  cameraPosition.y = selectedCamera.position.y
+  cameraPosition.z = selectedCamera.position.z
+  const tween = new TWEEN.Tween(cameraPosition ).to(target1, 2000); //
+  tween.start();
+  setTimeout(() => {
+    pogoj = false;
+  }, 2000)
+  
+}
+
+
+//Trenutno za rezervo
+function interiorConfiguration(){
+  interiorCamera.position.set( - 1, 0.6, -4 );
+}
+
+//NAVIGATION BUTTONS
+
+document.getElementById("exteriorSection").onclick = function() {
+  exteriorConfiguration();
+};
+
+document.getElementById("seatsSection").onclick = function() {
+  seatsConfiguration();
+};
+
+document.getElementById("testIzbireSedezev").onclick = function() {
+
+};
+
+document.getElementById("slikaModra").onclick = function() {
+  //preklop v modro
+  partsArray[34].visible = false;
+  partsArray[36].visible = false;  //prednjiSedezDesniPanthera2
+  partsArray[35].visible = false;  //prednjiSedezLeviPanthera2 problem
+};
+
+document.getElementById("slikaRdeca").onclick = function() {
+  //preklop v rdeco
+  partsArray[34].visible = true;
+  partsArray[36].visible = true;  //prednjiSedezDesniPanthera2
+  partsArray[35].visible = true;  //prednjiSedezLeviPanthera2 problem
+
+};
+
+document.getElementById("oranznaPanthera").onclick = function() {
+  partsArray[33].visible = true; //skinPanthera4  
+  partsArray[32].visible = false; //skinPanthera3
+  partsArray[31].visible = false; //skinPanthera2
+};
+
+document.getElementById("zelenaPanthera").onclick = function() {
+  partsArray[33].visible = false; //skinPanthera4  
+  partsArray[32].visible = true; //skinPanthera3
+  partsArray[31].visible = false; //skinPanthera2
+};
+
+document.getElementById("modraPanthera").onclick = function() {
+  partsArray[33].visible = false; //skinPanthera4  
+  partsArray[32].visible = false; //skinPanthera3
+  partsArray[31].visible = true; //skinPanthera2
+};
+
+document.getElementById("vijolicnaPanthera").onclick = function() {
+  partsArray[33].visible = false; //skinPanthera4  
+  partsArray[32].visible = false; //skinPanthera3
+  partsArray[31].visible = false; //skinPanthera2
+};
+
+animate();
+
+
+  //var target =  { x : 0, y: 0, z: 0 };
+  //const tween = new TWEEN.Tween(position).to(target, 2000); //
+  //tween.start();
+
