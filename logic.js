@@ -85,7 +85,7 @@ loader.load( 'datoteke/pantherav12.gltf', function ( gltf ) {
         scene.add( gltf.scene );
         
         //partsArray[100].visible = false;
-        console.log("5") // 
+        console.log(partsArray.length) // 
         roughnessMipmapper.dispose();
         
         mixer = new THREE.AnimationMixer( gltf.scene );
