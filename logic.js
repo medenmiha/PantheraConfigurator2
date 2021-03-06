@@ -15,7 +15,7 @@ var cameraLook = new THREE.Vector3(0, 0, 0);  //
 
 var partsArray = []; //
 
-var izbranObjekt;
+var modro_bez_Sedezi, rdece_crni_Sedezi;
 
 
 
@@ -86,8 +86,9 @@ loader.load( 'datoteke/pantherav12.gltf', function ( gltf ) {
         
         scene.add( gltf.scene );
         
-        izbranObjekt = scene.getObjectByName("modro-bez");
-        //partsArray[100].visible = false;
+        modro_bez_Sedezi = scene.getObjectByName("modro-bez");
+        rdece_crni_Sedezi = scene.getObjectByName("rdece-crni");
+
         console.log(partsArray.length) // 
         roughnessMipmapper.dispose();
         
@@ -216,11 +217,14 @@ document.getElementById("slikaModra").onclick = function() {
   partsArray[34].visible = false;
   partsArray[36].visible = false;  //prednjiSedezDesniPanthera2
   partsArray[35].visible = false;  //prednjiSedezLeviPanthera2 problem
+  modro_bez_Sedezi.visible = true;
+  rdece_crni_Sedezi.visible = false;
 };
 
 document.getElementById("slikaRdeca").onclick = function() {
   //preklop v rdeco
-  izbranObjekt.visible = false;
+  modro_bez_Sedezi.visible = false;
+  rdece_crni_Sedezi.visible = true;
   //partsArray[34].visible = true;
   //partsArray[36].visible = true;  //prednjiSedezDesniPanthera2
   //partsArray[35].visible = true;  //prednjiSedezLeviPanthera2 problem
