@@ -165,8 +165,9 @@ function exteriorConfiguration(){
 
 function seatsConfiguration(){
 
+    selectedCamera = interiorCamera;
   action1.clampWhenFinished = true;
-	action1.loop = THREE.LoopOnce;
+  action1.loop = THREE.LoopOnce;
   action1.play();
 
   action2.clampWhenFinished = true;
@@ -213,22 +214,13 @@ document.getElementById("testIzbireSedezev").onclick = function() {
 };
 
 document.getElementById("slikaModra").onclick = function() {
-  //preklop v modro
-  partsArray[34].visible = false;
-  partsArray[36].visible = false;  //prednjiSedezDesniPanthera2
-  partsArray[35].visible = false;  //prednjiSedezLeviPanthera2 problem
   modro_bez_Sedezi.visible = true;
   rdece_crni_Sedezi.visible = false;
 };
 
 document.getElementById("slikaRdeca").onclick = function() {
-  //preklop v rdeco
   modro_bez_Sedezi.visible = false;
   rdece_crni_Sedezi.visible = true;
-  //partsArray[34].visible = true;
-  //partsArray[36].visible = true;  //prednjiSedezDesniPanthera2
-  //partsArray[35].visible = true;  //prednjiSedezLeviPanthera2 problem
-
 };
 
 document.getElementById("oranznaPanthera").onclick = function() {
