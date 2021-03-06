@@ -217,7 +217,7 @@ document.getElementById("slikaModra").onclick = function() {
 
 document.getElementById("slikaRdeca").onclick = function() {
   //preklop v rdeco
-  partsArray.getObjectByName("Plane").visible = false;
+  partsArray.remove(getObjectByName("Plane"));
   //partsArray[34].visible = true;
   //partsArray[36].visible = true;  //prednjiSedezDesniPanthera2
   //partsArray[35].visible = true;  //prednjiSedezLeviPanthera2 problem
