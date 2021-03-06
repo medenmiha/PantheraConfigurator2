@@ -193,8 +193,8 @@ function seatsConfiguration(){
   selectedCamera = interiorCamera;
     controls = new OrbitControls( selectedCamera, renderer.domElement );
     controls.minDistance = 0.5;
-    controls.maxDistance = 10
-    controls.target.set( -2, 1.37, 1.16 );
+    controls.maxDistance = 5
+    controls.target.set( 0, 0.5, 0);
   
 }
 
