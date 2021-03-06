@@ -180,7 +180,7 @@ function seatsConfiguration(){
   pogoj = true;
  
 
-  var target1 =  { x : -2, y: 1.37, z: 1.16 };
+  var target1 =  { x : -1.3, y: 1, z: 1 };
   cameraPosition.x = selectedCamera.position.x
   cameraPosition.y = selectedCamera.position.y
   cameraPosition.z = selectedCamera.position.z
