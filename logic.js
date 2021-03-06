@@ -24,7 +24,7 @@ clock = new THREE.Clock();
 
 //CAMERAS
 exteriorCamera = new THREE.PerspectiveCamera( 45, window.innerWidth / window.innerHeight, 0.25, 20 );
-interiorCamera = new THREE.PerspectiveCamera( 65, window.innerWidth / window.innerHeight, 0.25, 20 );
+interiorCamera = new THREE.PerspectiveCamera( 75, window.innerWidth / window.innerHeight, 0.25, 20 );
 
 selectedCamera = exteriorCamera;
 
@@ -180,7 +180,7 @@ function seatsConfiguration(){
   pogoj = true;
  
 
-  var target1 =  { x : -1.3, y: 1, z: 1 };
+  var target1 =  { x : -1, y: 0.5, z: 0.5 };
   cameraPosition.x = selectedCamera.position.x
   cameraPosition.y = selectedCamera.position.y
   cameraPosition.z = selectedCamera.position.z
