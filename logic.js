@@ -86,7 +86,7 @@ loader.load( 'datoteke/pantherav12.gltf', function ( gltf ) {
         
         scene.add( gltf.scene );
         
-        izbranObjekt = scene.getObjectByName("Plane");
+        izbranObjekt = scene.getObjectByName("modro-bez");
         //partsArray[100].visible = false;
         console.log(partsArray.length) // 
         roughnessMipmapper.dispose();
