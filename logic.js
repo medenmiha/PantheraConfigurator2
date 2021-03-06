@@ -224,27 +224,27 @@ document.getElementById("slikaRdeca").onclick = function() {
 };
 
 document.getElementById("oranznaPanthera").onclick = function() {
-  partsArray[33].visible = true; //skinPanthera4  
-  partsArray[32].visible = false; //skinPanthera3
-  partsArray[31].visible = false; //skinPanthera2
+  partsArray[0].visible = true; //skinPanthera4  
+  partsArray[1].visible = false; //skinPanthera3
+  partsArray[2].visible = false; //skinPanthera2
 };
 
 document.getElementById("zelenaPanthera").onclick = function() {
-  partsArray[33].visible = false; //skinPanthera4  
-  partsArray[32].visible = true; //skinPanthera3
-  partsArray[31].visible = false; //skinPanthera2
+  partsArray[0].visible = false; //skinPanthera4  
+  partsArray[1].visible = true; //skinPanthera3
+  partsArray[2].visible = false; //skinPanthera2
 };
 
 document.getElementById("modraPanthera").onclick = function() {
-  partsArray[33].visible = false; //skinPanthera4  
-  partsArray[32].visible = false; //skinPanthera3
-  partsArray[31].visible = true; //skinPanthera2
+  partsArray[0].visible = false; //skinPanthera4  
+  partsArray[1].visible = false; //skinPanthera3
+  partsArray[2].visible = true; //skinPanthera2
 };
 
 document.getElementById("vijolicnaPanthera").onclick = function() {
-  partsArray[33].visible = false; //skinPanthera4  
-  partsArray[32].visible = false; //skinPanthera3
-  partsArray[31].visible = false; //skinPanthera2
+  partsArray[0].visible = false; //skinPanthera4  
+  partsArray[1].visible = false; //skinPanthera3
+  partsArray[2].visible = false; //skinPanthera2
 };
 
 animate();
