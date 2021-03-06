@@ -165,7 +165,7 @@ function exteriorConfiguration(){
 
 function seatsConfiguration(){
 
-    selectedCamera = interiorCamera;
+  controls.minDistance = 0.5;
   action1.clampWhenFinished = true;
   action1.loop = THREE.LoopOnce;
   action1.play();
