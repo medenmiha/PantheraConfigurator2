@@ -165,7 +165,6 @@ function exteriorConfiguration(){
 
 function seatsConfiguration(){
 
-  controls.minDistance = 0.5;
   action1.clampWhenFinished = true;
   action1.loop = THREE.LoopOnce;
   action1.play();
@@ -179,8 +178,7 @@ function seatsConfiguration(){
   action3.play();
 
   pogoj = true;
-  selectedCamera = interiorCamera;
-  controls = new OrbitControls( selectedCamera, renderer.domElement );
+ 
 
   var target1 =  { x : -2, y: 1.37, z: 1.16 };
   cameraPosition.x = selectedCamera.position.x
@@ -191,6 +189,12 @@ function seatsConfiguration(){
   setTimeout(() => {
     pogoj = false;
   }, 2000)
+
+  selectedCamera = interiorCamera;
+    controls = new OrbitControls( selectedCamera, renderer.domElement );
+    controls.minDistance = 0.5;
+    controls.maxDistance = 10
+    controls.target.set( -2, 1.37, 1.16 );
   
 }
 
