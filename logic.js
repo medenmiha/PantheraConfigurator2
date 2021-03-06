@@ -15,6 +15,8 @@ var cameraLook = new THREE.Vector3(0, 0, 0);  //
 
 var partsArray = []; //
 
+var izbranObjekt;
+
 
 
 scene = new THREE.Scene();
@@ -84,6 +86,7 @@ loader.load( 'datoteke/pantherav12.gltf', function ( gltf ) {
         
         scene.add( gltf.scene );
         
+        izbranObjekt = scene.getObjectByName("Plane");
         //partsArray[100].visible = false;
         console.log(partsArray.length) // 
         roughnessMipmapper.dispose();
