@@ -180,6 +180,7 @@ function seatsConfiguration(){
 
   pogoj = true;
   selectedCamera = interiorCamera;
+  controls = new OrbitControls( selectedCamera, renderer.domElement );
 
   var target1 =  { x : -2, y: 1.37, z: 1.16 };
   cameraPosition.x = selectedCamera.position.x
