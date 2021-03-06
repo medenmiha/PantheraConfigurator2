@@ -179,7 +179,7 @@ function seatsConfiguration(){
   action3.play();
 
   pogoj = true;
-  selectedCamera = exteriorCamera;
+  selectedCamera = interiorCamera;
 
   var target1 =  { x : -2, y: 1.37, z: 1.16 };
   cameraPosition.x = selectedCamera.position.x
