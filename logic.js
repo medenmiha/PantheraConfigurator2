@@ -220,6 +220,7 @@ document.getElementById("slikaModra").onclick = function() {
 
 document.getElementById("slikaRdeca").onclick = function() {
   //preklop v rdeco
+  izbranObjekt.visible = false;
   //partsArray[34].visible = true;
   //partsArray[36].visible = true;  //prednjiSedezDesniPanthera2
   //partsArray[35].visible = true;  //prednjiSedezLeviPanthera2 problem
