@@ -18,7 +18,6 @@ var partsArray = []; //
 var modro_bez_Sedezi, rdece_crni_Sedezi;
 
 
-
 scene = new THREE.Scene();
 clock = new THREE.Clock();
 
