@@ -87,6 +87,9 @@ loader.load( 'datoteke/pantherav12.gltf', function ( gltf ) {
         
         modro_bez_Sedezi = scene.getObjectByName("modro-bez");
         rdece_crni_Sedezi = scene.getObjectByName("rdece-crni");
+	
+	modro_bez_Sedezi.visible = false;
+  	rdece_crni_Sedezi.visible = true;
 
         console.log(partsArray.length) // 
         roughnessMipmapper.dispose();
